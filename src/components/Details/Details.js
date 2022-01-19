@@ -12,7 +12,7 @@ export default function Details() {
                 return(
                     <div className='container'>
                         {/* product title */}
-                        <div class="row ">
+                        <div className="row ">
                            <div className='col-10 mx-auto text-blue text-center my-5'>
                                <h1>{title}</h1>
                            </div>

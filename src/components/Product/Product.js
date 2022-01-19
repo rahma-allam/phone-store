@@ -5,9 +5,7 @@ import PropTypes from 'prop-types';
 import { Cnxtconsumer } from '../../Context';
     
 export default function Product(props) {
-  const {id, title, img, price, company, info, inCart} = props.product;
-
-
+  const {id, title, img, price,inCart} = props.product;
     return (
       <>
        <div className='col-9 col-lg-3 col-md-6 mx-auto my-3'>
